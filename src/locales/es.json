@@ -1,0 +1,33 @@
+{
+  "welcome": {
+    "HOME": "Home",
+    "TITLE": "Full Stack <p> Web Developer",
+    "FULL_STACK_WEB_DEVELOPER": "Full Stack Web Developer",
+    "PARAGRAPH_1": "<p>Kurt has a solid background and advanced knowledge in web development and cyber security. For three decades, he has been designing, developing, managing and securing IT projects for the U.S. Dept of Defense (U.S. Army) and companies such as: Lockheed Martin, Sonoco Inc, ABB Flexible Automation, Ward North America, Thomas Howell Group, Apex System LLC, Matrix Systems among others.</p>"
+  },
+  "about_me": {
+    "TITLE": "About me",
+    "PARAGRAPH_1": "<p>Kurt has been coding for over 35 years and pursued his constant interest in technology by earning a degree of Bachelor of Science. He has also attained at least 30 certifications in Web development, Networking, and Cybersecurity.</p>",
+    "PARAGRAPH_2": "<p>He is passionate about creating value for his customers by first working to understand their needs, then skillfully implement custom software to efficiently automate workflows, drive productivity and save costs. </p>",
+    "PARAGRAPH_3": "<p>In addition to his professional work, Kurt is an active contributor to the open source, corporate, and US Government communities. He is expert in JavaScript and modern technologies such as:</p>"
+  },
+  "open_source": {
+    "TITLE": "Open Source, US Government and Volunteer Projects",
+    "PARAGRAPH_1": "<p>Kurt is both an open and private source enthusiast and devotes his time building projects in both fields.</p>",
+    "PARAGRAPH_2": "<p>He is the creator and maintainer of <strong>\"www.KPSdev.org\"</strong>, <strong>\"www.JRMS.org\"</strong> and  <strong>\"www.HITL.org\"</strong> .</p>",
+    "PARAGRAPH_3": "<p>These projects are for \"His Professional Website\" a \"Dept of Defense Portal\" and a \"Volunteer Website\" for his local Tennis organization </p>",
+    "PARAGRAPH_4": "<p>Some of his Github public projects are available to web developers for cloning around the world.</p>",
+    "GITHUB_REPOSITORY": "GitHub Repository",
+    "LIVE_DEMO": "Live Demo",
+    "STARS_ON_GITHUB": "stars on GitHub",
+    "DOWNLOADS_ON_NPM": "downloads on NPM"
+  },
+  "services": {
+    "TITLE": "Services",
+    "WEB_DEVELOPMENT": "Full Stack Web Development",
+    "IT_CONSULTING": "IT and Cybersecurity consulting",
+    "APP_DESIGN": "App & Workflow Design",
+    "SUPPORT": "Support",
+    "INTERESTED_CHAT_NOW": "Interested? <br /> Click here and have a chat with Kurt now!"
+  }
+}
