@@ -78,7 +78,22 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
+@import 'src/scss/variables.scss';
+
+/* $grid-breakpoints: (
+  xs: 0,
+  sm: 480px,
+  md: 768px,
+  lg: 1024px
+);
+
+$container-max-widths: (
+  sm: 420px,
+  md: 720px,
+  lg: 960px
+); */
+
 @font-face {
   font-family: 'domine-bold';
   src: url('assets/fonts/domine/domine-bold-webfont.woff2') format('woff2'),
@@ -97,6 +112,7 @@ export default {
 }
 body {
   font-family: 'metropolis-regular', sans-serif;
+  background: $bg-body;
 }
 a {
   color: #546e7a !important;

@@ -9,7 +9,7 @@
     "TITLE": "About me",
     "PARAGRAPH_1": "<p>Kurt has been coding for over 30 years and pursued his constant interest in technology by earning a degree of Bachelor of Science. He has also attained at least 30 certifications in Web development, Networking, and Cybersecurity.</p>",
     "PARAGRAPH_2": "<p>He is passionate about creating value for his customers by first working to understand their needs, then skillfully implement custom software to efficiently automate workflows, drive productivity and save costs in a secured environment. </p>",
-    "PARAGRAPH_3": "<p>In addition to his professional work, Kurt is an active contributor to the open source, corporate, and US Government communities. He is expert in JavaScript and modern technologies such as:</p>"
+    "PARAGRAPH_3": "<p>In addition to his professional work, Kurt is an active contributor to the open source, corporate, and US Government communities. He is proficient in JavaScript and modern technologies such as:</p>"
   },
   "open_source": {
     "TITLE": "Open Source, US Government and Volunteer Projects",
@@ -29,5 +29,11 @@
     "APP_DESIGN": "App & Workflow Design",
     "SUPPORT": "Support",
     "INTERESTED_CHAT_NOW": "Interested? <br /> Click here and have a chat with Kurt now!"
+  },
+  "certificates": {
+    "TITLE": "Certificates Earned",
+    "PARAGRAPH_1": "<p>Kurt has been studying hard. Check out his list of Full Stack Coding, Cyber Security, and Networking Certificates that follow.</p>",
+    "PARAGRAPH_2": "<p>He is always on the look out to learn new skils, strategies and techniques to assist his clients.</p>",
+    "PARAGRAPH_3": "<p>Improving his design, coding, cybersecurity and cloud deployment and API skills to keep his clients at the leading edge!</p>"
   }
 }

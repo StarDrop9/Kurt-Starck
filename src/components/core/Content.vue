@@ -4,6 +4,7 @@
     <AboutMe />
     <OpenSource />
     <Services />
+    <Certificates />
   </div>
 </template>
 
@@ -12,6 +13,7 @@ import Welcome from '@/components/Welcome.vue'
 import AboutMe from '@/components/AboutMe.vue'
 import OpenSource from '@/components/OpenSource.vue'
 import Services from '@/components/Services.vue'
+import Certificates from '@/components/Certificates.vue'
 
 export default {
   name: 'Content',
@@ -19,7 +21,8 @@ export default {
     Welcome,
     AboutMe,
     OpenSource,
-    Services
+    Services,
+    Certificates
   }
 }
 </script>

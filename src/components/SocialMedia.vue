@@ -32,9 +32,14 @@ export default {
     return {
       items: [
         {
+          name: 'FCC',
+          icon: 'mdi-fire',
+          link: 'https://www.freecodecamp.org/StarDrop9'
+        },
+        {
           name: 'GitHub',
           icon: 'mdi-github-circle',
-          link: 'https://www.github.com/StarDrop9'
+          link: 'https://www.github.com/stardrop9'
         },
         {
           name: 'LinkedIn',

@@ -1,7 +1,7 @@
 <template>
   <section id="open-source" class="hide-overflow">
     <v-layout>
-      <v-flex xs12 v-show="$vuetify.breakpoint.smAndDown">
+      <v-flex xs12 md6 v-show="$vuetify.breakpoint.smAndDown">
         <v-img :src="require('@/assets/open-source.jpg')" height="100%" />
       </v-flex>
     </v-layout>

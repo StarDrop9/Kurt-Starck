@@ -44,7 +44,22 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
+//@import '../scss/variables.scss';
+
+/* $grid-breakpoints: (
+  xs: 0,
+  sm: 480px,
+  md: 768px,
+  lg: 1024px
+);
+
+$container-max-widths: (
+  sm: 420px,
+  md: 720px,
+  lg: 960px
+);
+ */
 .overlay-container {
   position: relative;
 }

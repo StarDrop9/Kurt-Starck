@@ -17,7 +17,7 @@
             v-for="(service, i) in services"
             :key="i"
             xs12
-            sm6
+            md6
             text-xs-center
             mb-3
           >
@@ -35,7 +35,7 @@
           <v-flex xs12 text-xs-center mb-3>
             <a
               target="_blank"
-              href="https://api.whatsapp.com/send?phone=#######&text=kurt-starck.com"
+              href="https://api.whatsapp.com/send?phone=12566512889&text=kurt-starck.com"
             >
               <v-icon
                 size="52"

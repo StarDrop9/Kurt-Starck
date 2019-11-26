@@ -2,10 +2,10 @@
   <div>
     <v-toolbar v-observe-visibility="visibilityChanged" flat absolute app>
       <v-avatar tile>
-        <img :src="require('@/assets/logokps333.png')" alt="KPSDev.org" />
+        <img :src="require('@/assets/kps2.jpg')" alt="KPSDev.org" />
       </v-avatar>
-      <v-spacer />
-      <SocialMedia bottom customClass="ma-2" />
+      <v-spacer v-show="$vuetify.breakpoint.smAndUp" />
+      <SocialMedia bottom customClass="ma-1" />
     </v-toolbar>
     <div v-show="show">
       <span>
@@ -35,10 +35,7 @@
           <v-list-tile>
             <v-list-tile-content>
               <v-avatar tile>
-                <img
-                  :src="require('@/assets/logokps333.png')"
-                  alt="KPSDev.org"
-                />
+                <img :src="require('@/assets/kps1.jpg')" alt="KPSDev.org" />
               </v-avatar>
             </v-list-tile-content>
             <v-list-tile-action>
@@ -63,6 +60,11 @@
           <v-list-tile @click="scrollTo('#services')">
             <v-list-tile-content>
               {{ $t('services.TITLE') }}
+            </v-list-tile-content>
+          </v-list-tile>
+          <v-list-tile @click="scrollTo('#certificates')">
+            <v-list-tile-content>
+              {{ $t('certificates.TITLE') }}
             </v-list-tile-content>
           </v-list-tile>
         </v-list>
