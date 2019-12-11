@@ -1,12 +1,8 @@
 <template>
   <section id="about" class="hide-overflow">
     <v-layout>
-      <v-flex xs12 md6 v-show="$vuetify.breakpoint.smAndDown">
-        <v-img
-          :src="require('@/assets/about-me.jpg')"
-          height="100%"
-          width="100%"
-        />
+      <v-flex xs12 v-show="$vuetify.breakpoint.smAndDown">
+        <v-img height="100%" width="100%" :src="require('@/assets/kps2.jpg')" />
       </v-flex>
     </v-layout>
     <v-layout light-blue lighten-2 white--text>

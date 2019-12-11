@@ -18,7 +18,7 @@
       </v-flex>
       <v-flex xs12 md6>
         <v-layout align-center justify-center fill-height wrap>
-          <LocaleChanger />
+          <!-- <LocaleChanger /> -->
           <v-flex xs12 pl-5 pr-5 pt-0 pb-5>
             <Logo class="mt-2" />
             <Subheading>Kurt P Starck</Subheading>
@@ -32,12 +32,12 @@
 </template>
 
 <script>
-import LocaleChanger from '@/components/core/LocaleChanger.vue'
+// import LocaleChanger from '@/components/core/LocaleChanger.vue'
 import ResizeText from 'vue-resize-text'
 
 export default {
   name: 'Welcome',
-  components: { LocaleChanger },
+  components: {},
   directives: {
     ResizeText
   }
@@ -45,21 +45,8 @@ export default {
 </script>
 
 <style lang="scss">
-//@import '../scss/variables.scss';
+@import '../scss/variables.scss';
 
-/* $grid-breakpoints: (
-  xs: 0,
-  sm: 480px,
-  md: 768px,
-  lg: 1024px
-);
-
-$container-max-widths: (
-  sm: 420px,
-  md: 720px,
-  lg: 960px
-);
- */
 .overlay-container {
   position: relative;
 }

@@ -29,5 +29,11 @@
     "APP_DESIGN": "App & Workflow Design",
     "SUPPORT": "Support",
     "INTERESTED_CHAT_NOW": "Interested? <br /> Click here and have a chat with Kurt now!"
+  },
+  "certificates": {
+    "TITLE": "Certificates Earned",
+    "PARAGRAPH_1": "<p>Kurt has been studying hard. Check out his list of Full Stack Coding, Cyber Security, and Networking Certificates that follow.</p>",
+    "PARAGRAPH_2": "<p>He is always on the look out to learn new skils, strategies and techniques to assist his clients.</p>",
+    "PARAGRAPH_3": "<p>Improving his design, coding, cybersecurity and cloud deployment and API skills to keep his clients at the leading edge!</p>"
   }
 }
