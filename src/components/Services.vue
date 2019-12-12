@@ -6,6 +6,9 @@
       </v-flex>
     </v-layout>
     <v-layout orange lighten-1 white--text fill-height wrap>
+  <v-flex md6>
+        <v-img :src="require('@/assets/services.jpg')" height="100%" />
+      </v-flex>
       <v-flex xs12 md6 pa-5>
         <v-layout>
           <v-flex xs12>
@@ -54,9 +57,6 @@
             <Logo class="mt-5" />
           </v-flex>
         </v-layout>
-      </v-flex>
-      <v-flex md6>
-        <v-img :src="require('@/assets/services.jpg')" height="100%" />
       </v-flex>
     </v-layout>
   </section>

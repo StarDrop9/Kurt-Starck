@@ -1,14 +1,6 @@
 <template>
   <section id="open-source" class="hide-overflow">
-    <v-layout>
-      <v-flex xs12 md6 v-show="$vuetify.breakpoint.smAndDown">
-        <v-img :src="require('@/assets/open-source.jpg')" height="100%" />
-      </v-flex>
-    </v-layout>
-    <v-layout light-green lighten-1 white--text wrap>
-      <v-flex md6>
-        <v-img :src="require('@/assets/open-source.jpg')" height="100%" />
-      </v-flex>
+      <v-layout light-green lighten-1 white--text wrap>
       <v-flex xs12 md6>
         <v-layout align-center justify-center fill-height wrap>
           <v-flex xs12 pa-5>
@@ -65,8 +57,17 @@
               </div>
             </ContentText>
           </v-flex>
-        </v-layout>
+         </v-layout>
       </v-flex>
+      <v-flex md6>
+            <v-img :src="require('@/assets/open-source.jpg')" height="100%" />
+          </v-flex>
+    </v-layout>
+    
+  <v-layout>
+      <!-- <v-flex xs12 md6 v-show="$vuetify.breakpoint.smAndDown">
+        <v-img :src="require('@/assets/open-source.jpg')" height="100%" />
+      </v-flex> -->
     </v-layout>
   </section>
 </template>

@@ -6,6 +6,9 @@
       </v-flex>
     </v-layout>
     <v-layout light-blue lighten-2 white--text>
+      <v-flex md6>
+        <v-img :src="require('@/assets/about-me.jpg')" height="100%" />
+      </v-flex>
       <v-flex xs12 md6 pa-5>
         <Heading v-html="$t('about_me.TITLE')" />
         <ContentText v-html="$t('about_me.PARAGRAPH_1')" />
@@ -29,9 +32,6 @@
             </v-chip>
           </v-layout>
         </ContentText>
-      </v-flex>
-      <v-flex md6>
-        <v-img :src="require('@/assets/about-me.jpg')" height="100%" />
       </v-flex>
     </v-layout>
   </section>

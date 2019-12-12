@@ -2,7 +2,7 @@
   <div>
     <v-toolbar v-observe-visibility="visibilityChanged" flat absolute app>
       <v-avatar tile>
-        <img :src="require('@/assets/kps2.jpg')" alt="KPSDev.org" />
+        <img :src="require('@/assets/logokps.png')" alt="KPSDev.org" />
       </v-avatar>
       <v-spacer v-show="$vuetify.breakpoint.smAndUp" />
       <SocialMedia bottom customClass="ma-1" />

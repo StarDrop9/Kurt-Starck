@@ -1,20 +1,8 @@
 /* eslint-disable */
 <template>
   <section id="certificates" class="hide-overflow">
-   <!-- <v-layout>
-    <v-flex xs12 md6 d-none d-lg-block >
-        <v-img
-          :src="require('@/assets/certificate.jpg')"
-          height="100%"
-          width="100%"
-        />
-      </v-flex> 
-   </v-layout> -->
-   <v-layout white lighten-1 white--text wrap>
-     <v-flex > 
-       <v-img :src="require('@/assets/certificate33ac.jpg')" height="100%" width="100%"/>
-     </v-flex> 
-      <v-flex xs12 md6 > 
+   <v-layout light-blue lighten-2 white--text wrap>
+     <v-flex xs12 md6 > 
       <v-layout light-blue lighten-2 white--text>
          <v-flex xs12 pa-5>
             <Heading v-html="$t('certificates.TITLE')" />
@@ -41,6 +29,9 @@
       </v-layout>
       </v-container>
     </v-flex>
+     <v-flex> 
+       <v-img :src="require('@/assets/certificate333resize.jpg')" height="100%" width="100%"/>
+     </v-flex> 
     </v-layout>
   </section>
 </template>
